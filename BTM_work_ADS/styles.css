@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* inicio css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*background screen */
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 60.5%;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(17,17,17,0,8),rgba(20,20,20,1));
+    background-image: url(./images/lordof.jpg); /* Path */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+}
+
+/* Menu - Header - Nav - Footer */
+
+header {
+    width: 100%;
+    height: 9vh;
+    background-color: rgba(22,22,22,0.2);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.logo a {
+    background: #ffffff;
+}
+
+.menu-content .list-items {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-content .list-items a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .list-items a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(177, 19, 19);
+    transition: all 1.5s ease;
+}
+
+.menu-content .list-items a:hover:before {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #111;
+    width: 100vw;
+    font-family: "Montserrat",sans-serif;
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 11.5px;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-bottom {
+    background: #111;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 300;
+}
+
+/* centro position */
+
+.main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* texto primario */
+.primary {
+    width: 850px;
+    font-size: 50px;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* video - imagens - GIF's */
+
+.video-content {
+    justify-content: center;
+    padding-left: 15.6cm;
+    padding-top: 3cm;
+    height: auto;
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+}
+
+.W-img-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13%;
+}
+
+.img-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.img-content1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2cm;
+    width: 25%;
+}
+
+
+/* jogabilidade e personagens */
+.text-content {
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.h2_text {
+    color: rgba(182, 16, 16);
+    font-size: 32px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    gap: 10;
+}
+#p_text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    gap: 3;
+}
+
+#p0_text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    gap: 3;
+}
+
+#p1_text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    gap: 3;
+}
+
+#p2_text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    margin-top: 0.4cm;
+}
+
+#p3_text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    margin-top: 0.4cm;
+}
+
+#p4_text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    margin-top: 0.4cm;
+}
+
+#p5_text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    margin-top: 0.4cm;
+}
+
+.list-content1 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+    padding-left: 1cm;
+    padding-top: 0.5cm;
+}
+
+.more-content /* button ver mais */
+{
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 10%;
+}
+
+.more-content:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.more-content:active {
+	position:relative;
+	top:1px;
+}
+
+.h2_duel {
+    color: rgba(182, 16, 16);
+    font-size: 32px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    margin-top: 0.5cm;
+}
+
+
+
+/* criar avatar */
+.form_container {
+    background-color: rgb(26, 22, 22);
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1760px;
+    margin: 0 auto;
+}
+
+.child_form {
+    border: 1px solid rgba(175, 17, 17, 0.555);
+}
+
+label {
+    width: 30px;
+}
+
+input {
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Pagina Sobre */
+.container-grid {
+    background-color:#1c1b18bd;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 12vh 60vh 3vh;
+}
+
+.about-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    margin-left: 1cm;
+    margin-right: 2cm;
+    font-size: 30px;
+}
+
+.photo1 {
+    width: 200px;
+    height: 150px;
+    margin-top: 2cm;
+    margin-right: 10cm;
+}
+
+.photo1 > img {
+    width: 200px;
+    height: 150px;
+    border: 4px solid black;
+    margin-left: 7.5cm;
+}
+
+.flex-p1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2cm;
+}
+
+.p1-about {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+    width: 600px;
+    height: 400px;
+    text-align:center;
+    margin-left: 2cm;
+}
+
