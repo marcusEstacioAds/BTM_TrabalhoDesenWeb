@@ -7,6 +7,9 @@
     <link href="../styles.css" rel="stylesheet">
     <title>Criar Avatar</title>
 </head>
+
+<script type="text/javascript" src="../js/script.js"></script>
+
 <body>
     <header>
         <div class="menu-content">
@@ -23,9 +26,8 @@
         </div>
     </header>
     <div class="form_container">
-        <div class="child_form">
             <form>
-                <p>Personagem 1</p><br>
+                <p>Personagem</p><br>
                 <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
                 <label for="avatar_name1">Nome:</label>
                 <input type="text" id="avatar_name1"><br><br>
@@ -45,168 +47,12 @@
                 <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
                 <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
                 <input type="submit">
-        </div>
-        <div class="child_form">
-            <form>
-                <p>Personagem 2</p><br>
-                <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
-                <label for="avatar_name1">Nome:</label>
-                <input type="text" id="avatar_name1"><br><br>
-                <label>Nação:</label><br>
-                <input type="radio" name="nat_radio"> Anão<br>
-                <input type="radio" name="nat_radio"> Hobbit<br>
-                <input type="radio" name="nat_radio"> Cavaleiro de Roham<br>
-                <input type="radio" name="nat_radio"> Guerreiro de Gondor<br>
-                <input type="radio" name="nat_radio"> Elfo da floresta<br>
-                <input type="radio" name="nat_radio"> Elfo de lothlórien<br>
-                <input type="radio" name="nat_radio"> Orc Snaga<br>
-                <input type="radio" name="nat_radio"> Uruk-hai<br><br>
-                <label for="range">Habilidades(10min - 100max)</label><br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Força<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Precisão<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Velocidade<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
-                <input type="submit">
-        </div>
-        <div class="child_form">
-            <form>
-                <p>Personagem 3</p><br>
-                <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
-                <label for="avatar_name1">Nome:</label>
-                <input type="text" id="avatar_name1"><br><br>
-                <label>Nação:</label><br>
-                <input type="radio" name="nat_radio"> Anão<br>
-                <input type="radio" name="nat_radio"> Hobbit<br>
-                <input type="radio" name="nat_radio"> Cavaleiro de Roham<br>
-                <input type="radio" name="nat_radio"> Guerreiro de Gondor<br>
-                <input type="radio" name="nat_radio"> Elfo da floresta<br>
-                <input type="radio" name="nat_radio"> Elfo de lothlórien<br>
-                <input type="radio" name="nat_radio"> Orc Snaga<br>
-                <input type="radio" name="nat_radio"> Uruk-hai<br><br>
-                <label for="range">Habilidades(10min - 100max)</label><br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Força<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Precisão<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Velocidade<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
-                <input type="submit">
-        </div>
-        <div class="child_form">
-            <form>
-                <p>Personagem 4</p><br>
-                <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
-                <label for="avatar_name1">Nome:</label>
-                <input type="text" id="avatar_name1"><br><br>
-                <label>Nação:</label><br>
-                <input type="radio" name="nat_radio"> Anão<br>
-                <input type="radio" name="nat_radio"> Hobbit<br>
-                <input type="radio" name="nat_radio"> Cavaleiro de Roham<br>
-                <input type="radio" name="nat_radio"> Guerreiro de Gondor<br>
-                <input type="radio" name="nat_radio"> Elfo da floresta<br>
-                <input type="radio" name="nat_radio"> Elfo de lothlórien<br>
-                <input type="radio" name="nat_radio"> Orc Snaga<br>
-                <input type="radio" name="nat_radio"> Uruk-hai<br><br>
-                <label for="range">Habilidades(10min - 100max)</label><br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Força<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Precisão<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Velocidade<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
-                <input type="submit">
-        </div>
-        <div class="child_form">
-            <form>
-                <p>Personagem 5</p><br>
-                <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
-                <label for="avatar_name1">Nome:</label>
-                <input type="text" id="avatar_name1"><br><br>
-                <label>Nação:</label><br>
-                <input type="radio" name="nat_radio"> Anão<br>
-                <input type="radio" name="nat_radio"> Hobbit<br>
-                <input type="radio" name="nat_radio"> Cavaleiro de Roham<br>
-                <input type="radio" name="nat_radio"> Guerreiro de Gondor<br>
-                <input type="radio" name="nat_radio"> Elfo da floresta<br>
-                <input type="radio" name="nat_radio"> Elfo de lothlórien<br>
-                <input type="radio" name="nat_radio"> Orc Snaga<br>
-                <input type="radio" name="nat_radio"> Uruk-hai<br><br>
-                <label for="range">Habilidades(10min - 100max)</label><br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Força<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Precisão<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Velocidade<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
-                <input type="submit">
-        </div>
-        <div class="child_form">
-            <form>
-                <p>Personagem 6</p><br>
-                <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
-                <label for="avatar_name1">Nome:</label>
-                <input type="text" id="avatar_name1"><br><br>
-                <label>Nação:</label><br>
-                <input type="radio" name="nat_radio"> Anão<br>
-                <input type="radio" name="nat_radio"> Hobbit<br>
-                <input type="radio" name="nat_radio"> Cavaleiro de Roham<br>
-                <input type="radio" name="nat_radio"> Guerreiro de Gondor<br>
-                <input type="radio" name="nat_radio"> Elfo da floresta<br>
-                <input type="radio" name="nat_radio"> Elfo de lothlórien<br>
-                <input type="radio" name="nat_radio"> Orc Snaga<br>
-                <input type="radio" name="nat_radio"> Uruk-hai<br><br>
-                <label for="range">Habilidades(10min - 100max)</label><br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Força<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Precisão<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Velocidade<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
-                <input type="submit">
-        </div>
-        <div class="child_form">
-            <form>
-                <p>Personagem 7</p><br>
-                <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
-                <label for="avatar_name1">Nome:</label>
-                <input type="text" id="avatar_name1"><br><br>
-                <label>Nação:</label><br>
-                <input type="radio" name="nat_radio"> Anão<br>
-                <input type="radio" name="nat_radio"> Hobbit<br>
-                <input type="radio" name="nat_radio"> Cavaleiro de Roham<br>
-                <input type="radio" name="nat_radio"> Guerreiro de Gondor<br>
-                <input type="radio" name="nat_radio"> Elfo da floresta<br>
-                <input type="radio" name="nat_radio"> Elfo de lothlórien<br>
-                <input type="radio" name="nat_radio"> Orc Snaga<br>
-                <input type="radio" name="nat_radio"> Uruk-hai<br><br>
-                <label for="range">Habilidades(10min - 100max)</label><br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Força<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Precisão<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Velocidade<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
-                <input type="submit">
-        </div>
-        <div class="child_form">
-            <form>
-                <p>Personagem 8</p><br>
-                <input type="checkbox" id="include_avatar">Incluir este personagem na batalha<br>
-                <label for="avatar_name1">Nome:</label>
-                <input type="text" id="avatar_name1"><br><br>
-                <label>Nação:</label><br>
-                <input type="radio" name="nat_radio"> Anão<br>
-                <input type="radio" name="nat_radio"> Hobbit<br>
-                <input type="radio" name="nat_radio"> Cavaleiro de Roham<br>
-                <input type="radio" name="nat_radio"> Guerreiro de Gondor<br>
-                <input type="radio" name="nat_radio"> Elfo da floresta<br>
-                <input type="radio" name="nat_radio"> Elfo de lothlórien<br>
-                <input type="radio" name="nat_radio"> Orc Snaga<br>
-                <input type="radio" name="nat_radio"> Uruk-hai<br><br>
-                <label for="range">Habilidades(10min - 100max)</label><br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Força<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Precisão<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Velocidade<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Armadura<br>
-                <input type="range" name="range" min="10" max="100" value="50" step="10">Recup.<br><br><br>
-                <input type="submit">
-        </div>
+            </form>
+    </div>
+    
+    <div class="control">
+        <button onclick="add_btn(cont)" id="add_btn" class="btn_add">Add Item</button>
+        <button onclick="rmv_btn()" id="rmv_btn" class="btn_remove">Remover Item</button>
     </div>
 
     <div class="W-img-container">
